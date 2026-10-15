@@ -5,57 +5,97 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Z'S LECTRONIX</title>
 
-style.css
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+<style>
+body{
+background:#050b1f;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
+text-align:center;
+}
+
+header{
+background:linear-gradient(90deg,#00d4ff,#0066ff);
+padding:30px;
+}
+
+h1{
+font-size:60px;
+margin:0;
+}
+
+.hero{
+padding:80px 20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,229,255,.3);
+}
+
+.card h3{
+color:#00e5ff;
+}
+
+.whatsapp{
+position:fixed;
+left:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.contact{
+padding:40px;
+background:#0b1225;
+}
+
+footer{
+padding:20px;
+background:black;
+}
+</style>
 
 </head>
+
 <body>
 
-<nav>
-<div class="logo">Z'S LECTRONIX</div>
-
-<div class="dropdown">
-<button class="dropbtn">☰ Services</button>
-
-<div class="dropdown-content">
-
-#servicesServices</a>
-#phonesPhone Repairs</a>
-#contactContact</a>
-
-</div>
-</div>
-</nav>
+<header>
+<h1>Z'S LECTRONIX</h1>
+<p>Technology • Repairs • Activations • Installations</p>
+</header>
 
 <section class="hero">
-
-<h1>Z'S LECTRONIX</h1>
-
-<h2>YOUR TRUSTED TECHNOLOGY PARTNER</h2>
-
-<p>
-Repairs • Upgrades • Installations • Activations
-</p>
-
-#services
-View Services
-</a>
-
+<h2>Your Trusted Technology Partner</h2>
+<p>Professional Repairs, Windows Installations, Office Installations, Mobile Device Repairs and Upgrades.</p>
 </section>
 
-<section id="services">
+<section>
 
 <h2>Services & Pricing</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Office 2024</h3>
+<h3>Office 2024 Installation</h3>
 <p>R650</p>
 </div>
 
 <div class="card">
-<h3>Windows 11</h3>
+<h3>Windows 11 Installation</h3>
 <p>R750</p>
 </div>
 
@@ -65,8 +105,18 @@ View Services
 </div>
 
 <div class="card">
+<h3>Office Activation</h3>
+<p>R350</p>
+</div>
+
+<div class="card">
 <h3>Virus Removal</h3>
 <p>R350</p>
+</div>
+
+<div class="card">
+<h3>Data Recovery</h3>
+<p>R650</p>
 </div>
 
 <div class="card">
@@ -83,53 +133,52 @@ View Services
 
 </section>
 
-<section id="phones">
+<section>
 
-<h2>Phone Repairs</h2>
+<h2>Mobile Repairs</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>iPhone</h3>
-<p>Screen Repairs</p>
+<h3>iPhone Repairs</h3>
+<p>Screen Replacements</p>
 <p>Battery Replacements</p>
 <p>Back Glass Repairs</p>
 </div>
 
 <div class="card">
-<h3>Samsung</h3>
-<p>A14, A24, A34, A54</p>
-<p>S21, S22, S23, S24</p>
+<h3>Samsung Repairs</h3>
+<p>Galaxy A14, A24, A34, A54</p>
+<p>Galaxy S21, S22, S23, S24</p>
 </div>
 
 <div class="card">
-<h3>Huawei</h3>
+<h3>Huawei Repairs</h3>
 <p>P30, P40, P50</p>
 <p>Nova Series</p>
+<p>Y Series</p>
 </div>
 
 </div>
 
 </section>
 
-<section id="contact">
+<section class="contact">
 
 <h2>Contact Us</h2>
 
-<p>
-📍 14 Nagtegal Ave, Kriel (Ga-Nala), Mpumalanga 2271
-</p>
+<p>📍 14 Nagtegal Ave, Kriel (Ga-Nala), Mpumalanga 2271</p>
 
-<p>
-📞 072 896 9421
-</p>
+<p>📞 072 896 9421</p>
 
 </section>
 
-<a
-class="whatsapp"
-href="https://wa.me/27728969421?text=Hi%20Z'S%20LECTRONIX,%20I%20need%20a%20quotation."
+<a class="whatsapp"
+href="https://wa.me/27728969421?text=Hi%20Z'S%20LECTRONIX,%20I%20would%20like%20a%20quotation."
 target="_blank">
+WhatsApp
+</a>
 
-<i class="fab fa-whatsapp"></i>
-
+<footer>
+© Z
+  
